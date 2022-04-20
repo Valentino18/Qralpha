@@ -9,6 +9,7 @@ var usersRouter = require('./routes/users');
 var createqrRouter = require('./routes/createqr');
 var utilisateursRouter = require('./routes/utilisateurs');
 var interventionsRouter = require('./routes/interventions');
+var SallesRouter = require('./routes/salles');
 
 const mongoose = require('mongoose');
 
@@ -30,6 +31,7 @@ app.use('/users', usersRouter);
 app.use('/createqr', createqrRouter);
 app.use('/utilisateurs', utilisateursRouter);
 app.use('/interventions', interventionsRouter);
+app.use('/salles', SallesRouter);
  
 // Configuration de mongoose
 mongoose.connect('mongodb://localhost/qrAlpha', { useUnifiedTopology: true, useNewUrlParser: true });

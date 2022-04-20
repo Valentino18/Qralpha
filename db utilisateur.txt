@@ -1,1 +1,1 @@
-db.utilisateurs.insert({ "nom":"Afonso", "prenom":"Zacharie", "mail":"AfonsoZ@gmail.com", "code":"ZJR2010", "poste":"Administrateur"})
+db.salles.insert({ "nom":"Afonso", "capacite":"9"})
